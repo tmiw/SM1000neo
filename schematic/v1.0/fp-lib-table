@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "ezDV_production")(type "KiCad")(uri "${KIPRJMOD}/")(options "")(descr ""))
+  (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/../external/Keebio-Parts.pretty")(options "")(descr ""))
+)

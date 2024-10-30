@@ -1,0 +1,89 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c330b4a4-e171-4020-af6f-70024960801b)
+
+  (paper "A4")
+
+  (title_block
+    (title "ezDV")
+    (date "2024-01-01")
+    (rev "v1.0")
+    (company "FreeDV Project")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 77.47 30.48) (size 41.91 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 040ca9e4-b957-49bc-90cf-5edfa1dc8d4e)
+    (property "Sheetname" "Audio Codec" (at 77.47 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "audio_codec.kicad_sch" (at 77.47 59.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ezDV"
+        (path "/c330b4a4-e171-4020-af6f-70024960801b" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 176.53 30.48) (size 41.91 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6057082c-f90a-427f-8fdf-e53704ad792d)
+    (property "Sheetname" "External Interface" (at 176.53 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "external_interface.kicad_sch" (at 176.53 59.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ezDV"
+        (path "/c330b4a4-e171-4020-af6f-70024960801b" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 127 30.48) (size 41.91 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7890e6de-ac57-4ee1-9a5c-5620f9d87756)
+    (property "Sheetname" "ESP32-S3" (at 127 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "esp32s3.kicad_sch" (at 127 59.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ezDV"
+        (path "/c330b4a4-e171-4020-af6f-70024960801b" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 27.94 30.48) (size 41.91 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid db5f8640-3f68-45d3-9d98-772c1de4408a)
+    (property "Sheetname" "Power and USB" (at 27.94 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_and_usb.kicad_sch" (at 27.94 59.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ezDV"
+        (path "/c330b4a4-e171-4020-af6f-70024960801b" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

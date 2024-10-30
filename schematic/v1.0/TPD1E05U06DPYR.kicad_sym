@@ -1,0 +1,35 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "TPD1E05U06DPYR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at -12.7 6.08 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "TPD1E05U06DPYR" (id 1) (at -12.7 -9.08 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "DIO_TPD1E05U06DPYR" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "TPD1E05U06DPYR_0_0"
+      (rectangle (start -12.7 -5.08) (end 12.7 5.08)
+        (stroke (width 0.41)) (fill (type background))
+      )
+      (pin bidirectional line (at -17.78 2.54 0) (length 5.08)
+        (name "I/O"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 2.54 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
